@@ -1,0 +1,80 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main container */
+#recipeList {
+    max-width: 500px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fffff2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #333;
+    
+}
+
+/* Style the input and button */
+.textInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    left: 20px;
+}
+
+.btnSearch  {
+    display: inline-block;
+    background-color: #77b549;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+     
+}
+.btnRandom {
+    display: inline-block;
+    background-color: #91978d;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 232px;
+     
+}
+
+/* Style the message and dish */
+#dish {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style the search button on hover */
+.btn:hover {
+    background-color: #a5d87d;
+}
+
+#whatToDo {
+    font-size: 15px;
+    color: #333;
+    margin-left: 20px
+}
